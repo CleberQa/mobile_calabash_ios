@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4EBF0C61E11B80A00C51340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0C51E11B80A00C51340 /* main.m */; };
+		C4EBF0C91E11B80A00C51340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0C81E11B80A00C51340 /* AppDelegate.m */; };
+		C4EBF0D11E11B80A00C51340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0D01E11B80A00C51340 /* Assets.xcassets */; };
+		C4EBF0D41E11B80A00C51340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0D21E11B80A00C51340 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (clebinho, ); }; };
+		C4EBF0DF1E11B80A00C51340 /* ClebinhoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0DE1E11B80A00C51340 /* ClebinhoTests.m */; };
+		C4EBF0EC1E11B86A00C51340 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0EA1E11B86A00C51340 /* MainViewController.m */; };
+		C4EBF0ED1E11B86A00C51340 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0EB1E11B86A00C51340 /* MainViewController.xib */; };
+		C4EBF0F11E11BA9C00C51340 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0EF1E11BA9C00C51340 /* ColorViewController.m */; };
+		C4EBF0F21E11BA9C00C51340 /* ColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0F01E11BA9C00C51340 /* ColorViewController.xib */; };
+		C6289D5B1E12AB8400E5220D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0C81E11B80A00C51340 /* AppDelegate.m */; };
+		C6289D5C1E12AB8400E5220D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0EA1E11B86A00C51340 /* MainViewController.m */; };
+		C6289D5D1E12AB8400E5220D /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0EF1E11BA9C00C51340 /* ColorViewController.m */; };
+		C6289D5E1E12AB8400E5220D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EBF0C51E11B80A00C51340 /* main.m */; };
+		C6289D611E12AB8400E5220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0D21E11B80A00C51340 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (clebinho, ); }; };
+		C6289D621E12AB8400E5220D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0EB1E11B86A00C51340 /* MainViewController.xib */; };
+		C6289D631E12AB8400E5220D /* ColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0F01E11BA9C00C51340 /* ColorViewController.xib */; };
+		C6289D641E12AB8400E5220D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EBF0D01E11B80A00C51340 /* Assets.xcassets */; };
+		C6289D6C1E12ACAF00E5220D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6289D6B1E12ACAF00E5220D /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EBF0DB1E11B80A00C51340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EBF0B91E11B80A00C51340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EBF0C01E11B80A00C51340;
+			remoteInfo = Clebinho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4EBF0C11E11B80A00C51340 /* Clebinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clebinho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EBF0C51E11B80A00C51340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4EBF0C71E11B80A00C51340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4EBF0C81E11B80A00C51340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4EBF0D01E11B80A00C51340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EBF0D31E11B80A00C51340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EBF0D51E11B80A00C51340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EBF0DA1E11B80A00C51340 /* ClebinhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClebinhoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EBF0DE1E11B80A00C51340 /* ClebinhoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClebinhoTests.m; sourceTree = "<group>"; };
+		C4EBF0E01E11B80A00C51340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EBF0E91E11B86A00C51340 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C4EBF0EA1E11B86A00C51340 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C4EBF0EB1E11B86A00C51340 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C4EBF0EE1E11BA9C00C51340 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		C4EBF0EF1E11BA9C00C51340 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		C4EBF0F01E11BA9C00C51340 /* ColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorViewController.xib; sourceTree = "<group>"; };
+		C6289D681E12AB8400E5220D /* Clebinho-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clebinho-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6289D6B1E12ACAF00E5220D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C6289D6D1E12ADA300E5220D /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EBF0BE1E11B80A00C51340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBF0D71E11B80A00C51340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6289D5F1E12AB8400E5220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6289D6C1E12ACAF00E5220D /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EBF0B81E11B80A00C51340 = {
+			isa = PBXGroup;
+			children = (
+				C6289D6D1E12ADA300E5220D /* calabash.framework */,
+				C4EBF0C31E11B80A00C51340 /* Clebinho */,
+				C4EBF0DD1E11B80A00C51340 /* ClebinhoTests */,
+				C4EBF0C21E11B80A00C51340 /* Products */,
+				C6289D6A1E12ACAF00E5220D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EBF0C21E11B80A00C51340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBF0C11E11B80A00C51340 /* Clebinho.app */,
+				C4EBF0DA1E11B80A00C51340 /* ClebinhoTests.xctest */,
+				C6289D681E12AB8400E5220D /* Clebinho-cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EBF0C31E11B80A00C51340 /* Clebinho */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBF0C71E11B80A00C51340 /* AppDelegate.h */,
+				C4EBF0C81E11B80A00C51340 /* AppDelegate.m */,
+				C4EBF0E91E11B86A00C51340 /* MainViewController.h */,
+				C4EBF0EA1E11B86A00C51340 /* MainViewController.m */,
+				C4EBF0EB1E11B86A00C51340 /* MainViewController.xib */,
+				C4EBF0EE1E11BA9C00C51340 /* ColorViewController.h */,
+				C4EBF0EF1E11BA9C00C51340 /* ColorViewController.m */,
+				C4EBF0F01E11BA9C00C51340 /* ColorViewController.xib */,
+				C4EBF0D01E11B80A00C51340 /* Assets.xcassets */,
+				C4EBF0D21E11B80A00C51340 /* LaunchScreen.storyboard */,
+				C4EBF0D51E11B80A00C51340 /* Info.plist */,
+				C4EBF0C41E11B80A00C51340 /* Supporting Files */,
+			);
+			path = Clebinho;
+			sourceTree = "<group>";
+		};
+		C4EBF0C41E11B80A00C51340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBF0C51E11B80A00C51340 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4EBF0DD1E11B80A00C51340 /* ClebinhoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EBF0DE1E11B80A00C51340 /* ClebinhoTests.m */,
+				C4EBF0E01E11B80A00C51340 /* Info.plist */,
+			);
+			path = ClebinhoTests;
+			sourceTree = "<group>";
+		};
+		C6289D6A1E12ACAF00E5220D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6289D6B1E12ACAF00E5220D /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EBF0C01E11B80A00C51340 /* Clebinho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EBF0E31E11B80A00C51340 /* Build configuration list for PBXNativeTarget "Clebinho" */;
+			buildPhases = (
+				C4EBF0BD1E11B80A00C51340 /* Sources */,
+				C4EBF0BE1E11B80A00C51340 /* Frameworks */,
+				C4EBF0BF1E11B80A00C51340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clebinho;
+			productName = Clebinho;
+			productReference = C4EBF0C11E11B80A00C51340 /* Clebinho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EBF0D91E11B80A00C51340 /* ClebinhoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EBF0E61E11B80A00C51340 /* Build configuration list for PBXNativeTarget "ClebinhoTests" */;
+			buildPhases = (
+				C4EBF0D61E11B80A00C51340 /* Sources */,
+				C4EBF0D71E11B80A00C51340 /* Frameworks */,
+				C4EBF0D81E11B80A00C51340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EBF0DC1E11B80A00C51340 /* PBXTargetDependency */,
+			);
+			name = ClebinhoTests;
+			productName = ClebinhoTests;
+			productReference = C4EBF0DA1E11B80A00C51340 /* ClebinhoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6289D591E12AB8400E5220D /* Clebinho-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6289D651E12AB8400E5220D /* Build configuration list for PBXNativeTarget "Clebinho-cal" */;
+			buildPhases = (
+				C6289D5A1E12AB8400E5220D /* Sources */,
+				C6289D5F1E12AB8400E5220D /* Frameworks */,
+				C6289D601E12AB8400E5220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clebinho-cal";
+			productName = Clebinho;
+			productReference = C6289D681E12AB8400E5220D /* Clebinho-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EBF0B91E11B80A00C51340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					clebinho,
+				);
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Marcelo dos Santos";
+				TargetAttributes = {
+					C4EBF0C01E11B80A00C51340 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					C4EBF0D91E11B80A00C51340 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 96PBVUC5EL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4EBF0C01E11B80A00C51340;
+					};
+				};
+			};
+			buildConfigurationList = C4EBF0BC1E11B80A00C51340 /* Build configuration list for PBXProject "Clebinho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EBF0B81E11B80A00C51340;
+			productRefGroup = C4EBF0C21E11B80A00C51340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EBF0C01E11B80A00C51340 /* Clebinho */,
+				C4EBF0D91E11B80A00C51340 /* ClebinhoTests */,
+				C6289D591E12AB8400E5220D /* Clebinho-cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EBF0BF1E11B80A00C51340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EBF0D41E11B80A00C51340 /* LaunchScreen.storyboard in Resources */,
+				C4EBF0ED1E11B86A00C51340 /* MainViewController.xib in Resources */,
+				C4EBF0F21E11BA9C00C51340 /* ColorViewController.xib in Resources */,
+				C4EBF0D11E11B80A00C51340 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBF0D81E11B80A00C51340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6289D601E12AB8400E5220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6289D611E12AB8400E5220D /* LaunchScreen.storyboard in Resources */,
+				C6289D621E12AB8400E5220D /* MainViewController.xib in Resources */,
+				C6289D631E12AB8400E5220D /* ColorViewController.xib in Resources */,
+				C6289D641E12AB8400E5220D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EBF0BD1E11B80A00C51340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EBF0C91E11B80A00C51340 /* AppDelegate.m in Sources */,
+				C4EBF0EC1E11B86A00C51340 /* MainViewController.m in Sources */,
+				C4EBF0F11E11BA9C00C51340 /* ColorViewController.m in Sources */,
+				C4EBF0C61E11B80A00C51340 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBF0D61E11B80A00C51340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EBF0DF1E11B80A00C51340 /* ClebinhoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6289D5A1E12AB8400E5220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6289D5B1E12AB8400E5220D /* AppDelegate.m in Sources */,
+				C6289D5C1E12AB8400E5220D /* MainViewController.m in Sources */,
+				C6289D5D1E12AB8400E5220D /* ColorViewController.m in Sources */,
+				C6289D5E1E12AB8400E5220D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EBF0DC1E11B80A00C51340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EBF0C01E11B80A00C51340 /* Clebinho */;
+			targetProxy = C4EBF0DB1E11B80A00C51340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4EBF0D21E11B80A00C51340 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EBF0D31E11B80A00C51340 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EBF0E11E11B80A00C51340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4EBF0E21E11B80A00C51340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EBF0E41E11B80A00C51340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Clebinho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.Clebinho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4EBF0E51E11B80A00C51340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Clebinho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.Clebinho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4EBF0E71E11B80A00C51340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 96PBVUC5EL;
+				INFOPLIST_FILE = ClebinhoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.ClebinhoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clebinho.app/Clebinho";
+			};
+			name = Debug;
+		};
+		C4EBF0E81E11B80A00C51340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 96PBVUC5EL;
+				INFOPLIST_FILE = ClebinhoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.ClebinhoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clebinho.app/Clebinho";
+			};
+			name = Release;
+		};
+		C6289D661E12AB8400E5220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Clebinho/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.calab.com.marcelo.Clebinho-cal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6289D671E12AB8400E5220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Clebinho/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.calab.com.marcelo.Clebinho-cal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EBF0BC1E11B80A00C51340 /* Build configuration list for PBXProject "Clebinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EBF0E11E11B80A00C51340 /* Debug */,
+				C4EBF0E21E11B80A00C51340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EBF0E31E11B80A00C51340 /* Build configuration list for PBXNativeTarget "Clebinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EBF0E41E11B80A00C51340 /* Debug */,
+				C4EBF0E51E11B80A00C51340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EBF0E61E11B80A00C51340 /* Build configuration list for PBXNativeTarget "ClebinhoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EBF0E71E11B80A00C51340 /* Debug */,
+				C4EBF0E81E11B80A00C51340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6289D651E12AB8400E5220D /* Build configuration list for PBXNativeTarget "Clebinho-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6289D661E12AB8400E5220D /* Debug */,
+				C6289D671E12AB8400E5220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EBF0B91E11B80A00C51340 /* Project object */;
+}

@@ -1,0 +1,4 @@
+QA:
+  cores:
+    vermelho: 'vermelho'
+    azul: 'azul'
